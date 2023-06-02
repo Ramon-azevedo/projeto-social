@@ -36,18 +36,28 @@ main {
 
 #cell iframe {
     position: relative;
-    top: 13%;
-    left: 7.3%;
-    width: 266px;
+    top: 12.8%;
+    left: 7.2%;
+    width: 267px;
     height: 471px;
 }
 
 #sociais img {
     width: 50px;
     border-radius: 50%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 #sociais {
     text-align: right;
     padding: 10px;
+}
+
+#sociais img:hover {
+    border: 2px solid white;
+}
+
+#sociais img:active {
+    transform: scale(95%);
 }
